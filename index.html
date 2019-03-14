@@ -1,0 +1,254 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <style>
+        .biankuang {
+            width: 243px;
+            height: 75px;
+            background-color: chartreuse;
+        }
+        /*小人下的边框*/
+
+        .neirong {
+            width: 1118px;
+            height: 788px;
+            background-color: aliceblue;
+            padding-top: 0px;
+            margin-left: 150px;
+        }
+        /*中间边框*/
+
+        #xin {
+            width: 1000px;
+            height: 0px;
+        }
+
+            /*移动*/
+
+            #xin img {
+                position: absolute;
+                top: 8px;
+                left: 43%;
+                -webkit-animation: play 5s linear infinite;
+            }
+
+        /*移动*/
+
+        @-webkit-keyframes play {
+            0% {
+                top: 0%;
+                left: 2%
+            }
+
+            25% {
+                top: 25%;
+                left: 2%;
+            }
+
+            50% {
+                top: 50%;
+                left: 2%
+            }
+
+            75% {
+                top: 75%;
+                left: 2%;
+            }
+
+            100% {
+                top: 85%;
+                left: 2%;
+            }
+        }
+
+        /*移动*/
+        .xiaotupian {
+            width: 1118px;
+            height: 100px;
+            padding-top:initial;
+        }
+        .yinyue {
+            width:300px;
+            height:58px;
+            padding-left:1150px;
+            padding-top:455px;
+        }
+        .shipin {
+           padding-top:110px;
+           padding-left:1120px;
+           
+        
+        }
+    </style>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />       <!--设置网页语言--->
+        <title>乱写网页</title>                                                         <!--设置网页主题-->
+        <span<span style="cursor:pointerss"></span>                                 <!--设置网页在某一个地方显示小手-->
+        <script>                                        /*网页离开显示崩溃*/
+            var OriginTitile = document.title;
+            var titleTime;
+            document.addEventListener('visibilitychange', function () {
+                if (document.hidden) {
+                    $('[rel="shortcut icon"]').attr('href', "//www.anotherhome.net/wp-content/themes/Amativeness/fail.ico");
+                    document.title = '(●—●)喔哟，崩溃啦！';
+                    clearTimeout(titleTime);
+
+                } else {
+                    $('[rel="shortcut icon"]').attr('href', "//www.anotherhome.net/wp-content/themes/Amativeness/favicon.ico");
+                    document.title = '(/≧▽≦/)咦！又好了！' + OriginTitile;
+                    titleTime = setTimeout(function () {
+                        document.title = OriginTitile;
+
+                    }, 2000);
+                    15
+                }
+                16
+            });
+
+        </script>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">                <!--我也看不懂哎-->
+
+
+
+        <body id="nv_forum" class="pg_viewthread" onkeydown="if(event.keyCode==27) return false;" style="height: 700px; margin: 0 auto;">  <!--我也看不懂哎-->
+            <link rel="stylesheet" type="text/css" href="assets/waifu.css" />                       <!--调用waifu类-->
+
+            <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>              <!--寻找外网图片-->
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body class="quanju" style="overflow:hidden">
+   
+    <a href="https://www.fghrsh.net/post/123.html" style="color: #38A3DB"></a>                      <!--点击切换小人-->
+    <div class="neirong">
+
+        <div class="xiaotupian" style="background:url(back/fengjing4.png) ">
+
+
+
+
+            <audio controls class="yinyue">
+                <!--音乐-->
+                <!--- autoplay="autoplay"(自动播放)-->
+                <source src="horse.mp3" type="audio/mpeg">
+                <source src="horse.ogg" type="audio/ogg">
+            </audio>     <!---音乐--->
+        </div>
+        <!----<embed src="shipin/dongman.mp4" width="320" height="240" class="shipin" autoplay="autoplay" />-->
+
+        
+        <video src="shipin/dongman.mp4" controls="controls"></video>
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <div id="xin">
+        <!--心脏-->
+        <img src="back/dongman.jpg" width='100' height='100'>
+    </div>
+    <div class="waifu">
+        <!--使用waifu类-->
+
+        <div class="waifu-tips"></div>
+        <canvas id="live2d" width="200" height="250" class="live2d"></canvas>
+        <div class="waifu-tool">
+            <span class="fui-home"></span>
+            <span class="fui-chat"></span>
+            <span class="fui-eye"></span>
+            <span class="fui-user"></span>
+            <span class="fui-photo"></span>
+            <span class="fui-info-circle"></span>
+            <span class="fui-cross"></span>
+
+        </div>
+
+
+
+
+    </div>
+
+
+    <script>
+        document.getElementById("inputDom").addEventListener("click", function () {
+            //设置页面的滚动为hidden
+            document.body.style.overflow = "hidden";
+            //灰色区域出现
+            document.getElementsByClassName('hiddenDiv')[0].style.display = 'block';
+        })
+    </script>
+    <dir>
+        <BODY background="back/1.gif">
+            <!--设置背景-->
+            <script type='text/javascript' color='22,192,255' zIndex='-1' opacity='1' count='99' src='assets/gb.js'></script>
+            <script src="assets/waifu-tips.js"></script>
+            <script src="assets/live2d.js"></script>
+            <script type="text/javascript">initModel("assets/")</script>
+            <div cursor:pointer } </div>
+        </BODY>
+
+
+
+
+
+
+
+
+
+
+</html>
+
+
+
+
+
+
+
+
+
+<!--鼠标点击-->
+<script type="text/javascript">             /*设置鼠标点击事件*/
+    (function () {
+        var coreSocialistValues = ["1", "2", "3", "4", "5", "6", "7", "8", "9"],
+            index = Math.floor(Math.random() * coreSocialistValues.length);
+        document.body.addEventListener('click', function (e) {
+            if (e.target.tagName == 'A') { return; } var x = e.pageX, y = e.pageY, span = document.createElement('span');
+            span.textContent = coreSocialistValues[index]; index = (index + 1) % coreSocialistValues.length;
+            span.style.cssText = ['z-index: 9999999; position: absolute; font-weight: bold; color: #ff6651; top: ', y - 20, 'px; left: ', x, 'px;'].join('');
+            document.body.appendChild(span); animate(span);
+        });
+        function animate(el) {
+            var i = 0, top = parseInt(el.style.top), id = setInterval(frame, 16.7);
+            function frame() {
+                if (i > 180) { clearInterval(id); el.parentNode.removeChild(el); }
+                else { i += 2; el.style.top = top - i + 'px'; el.style.opacity = (180 - i) / 180; }
+            }
+        }
+        }());
+
+
+
+</script>
+
+
